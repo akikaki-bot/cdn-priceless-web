@@ -1,0 +1,101 @@
+  input:checked + label {
+   color : green;
+  }
+  #loading {
+    height: 100%;
+    width: 100%;
+    background: #36393f;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #snackbar_saving, #snackbar_saveok ,#snackbar_savefail {
+  visibility: hidden; 
+  min-width: 250px; 
+  margin-left: -125px;
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  border-radius: 2px; 
+  padding: 16px; 
+  position: fixed; 
+  z-index: 1; 
+  left: 50%; 
+  bottom: 30px;
+}
+
+#snackbar_saving.show, #snackbar_saveok.show ,#snackbar_savefail.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+  .left-menu { display: block !important}
+  .smartphone{ display: none !important}
+
+  @media only screen and (max-width: 1220px) {
+    .left-menu { display: none !important}
+    .smartphone{ display: block !important}
+  }
+  .fa-redo-alt {
+    font-size: 200px;
+    color: #000000;
+  }
+  .main-contents {
+    width: 90%;
+  }
+  .url-color {
+   color: #a9ceec;
+  }
+  .url-color-choice {
+  color: #0067C0;
+  }
+  .left-menu {
+    width: 20%;
+    padding: 50px;
+  }
+  .container_the_main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    background-color :#36393f
+  }
+
+  .is-costom {
+    color : #2f3136;
+    background-color : #2f3136;
+  }
+
+  .is-w {
+    color : #FFFFFF
+  }
+  
+  .noshow {
+   display:none;
+  }
+  .is-dark {
+    background-color: #36393f;
+    color: #FFFFFF
+  }
+
+::-webkit-scrollbar {
+  display:none
+}
+
+
+  
