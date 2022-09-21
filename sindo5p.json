@@ -1,0 +1,28 @@
+{
+    "result":{
+        "status":"success",
+        "message": "",
+        "is_auth":true
+        },
+        "report_time":"2019/06/18 22:22:32",
+        "region_code":"",
+        "request_time":"テストデータです。",
+        "region_name":"東京湾",
+        "longitude":"139.5",
+        "is_cancel":false,
+        "depth":"10km",
+        "calcintensity":"5強",
+        "is_final":false,
+        "is_training":false,
+        "latitude":"38.6",
+        "origin_time":"テストデータです。",
+        "security":{
+            "realm":"/kyoshin_monitor/static/jsondata/eew_est/",
+            "hash":"b61e4d95a8c42e004665825c098a6de4"
+            },
+        "magunitude":"6.8",
+        "report_num":"4",
+        "request_hypo_type":"eew",
+        "report_id":"テストデータです。",
+        "alertflg":"警報"
+}
