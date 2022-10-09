@@ -1,5 +1,7 @@
 {
- "version":"1.0.1",
+ "newversion":"1.0.1",
+ "versionnum":101,
+ "oldversionnum":100,
  "description":"テスト",
  "url":"https://google.com"
 }
