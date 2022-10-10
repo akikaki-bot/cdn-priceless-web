@@ -1,7 +1,7 @@
 {
- "newversion":"1.0.1",
- "versionnum":101,
- "oldversionnum":100,
- "description":"テスト",
- "url":"https://google.com"
+ "newversion":"1.0.2",
+ "versionnum":102,
+ "oldversionnum":101,
+ "description":"テストCBT表記の追加、いろいろな修正",
+ "url":"https://akikaki-bot.github.io/kwhp/"
 }
